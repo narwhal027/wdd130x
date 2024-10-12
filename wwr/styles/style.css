@@ -217,7 +217,7 @@ nav a {
     background-color: rgb(21, 145, 79);
 }
 #logo {
-    width: 150px;
+    width: 80px;
 }
 .mountains {
     width: 500px;
@@ -230,6 +230,9 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+.icon {
+    width: 80px;
 }
 /* nav a
 #hero-msg h1, #hero-msg h4
