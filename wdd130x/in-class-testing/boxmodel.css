@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+/* @font-face {
+    font-family: myFirstFont;
+    
+} */
+body {
+    background: lightblue;
+}
+
+#wrapper {
+    width: 75%;
+    margin: 0 auto;
+    background-color: lightgreen;
+    padding: 30px;
+}
+
+.qbox1, .qbox2, .qbox3 {
+    box-sizing: border-box;
+    border-radius: 500px;
+    font-family: 'Tangerine, serif';
+    font-size: 15px;
+    
+}
+
+.qbox1 {
+    margin: 15px;
+    border: 20px solid black;
+    padding: 10px 20px;
+    width: 500px;
+}
+.qbox2 {
+    margin: 15px;
+    border: 40px dotted blue;
+    padding: 30px 50px;
+    width: 500px;
+    background: purple;
+    
+}
+.qbox2 p, .qbox2 span {
+    color: white;
+}
+.qbox3 {
+    margin: 15px;
+    border: 30px double darkred;
+    padding: 30px 80px;
+    width: 500px;
+    background: gold;
+}
