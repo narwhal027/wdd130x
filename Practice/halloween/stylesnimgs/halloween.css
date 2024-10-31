@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+:root {
+--heading-font: "Rubik Wet Paint", sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, h6, p, li{
+    font-family: var(--heading-font);
+}
+
+#wrapper{
+    background-color: darkorange;
+    /* background-image: 
+    linear-gradient(0deg, black 1px, transparent 1px),
+    linear-gradient(90deg, black 1px, transparent 1px);
+    background-size: 50px 50px; Adjusts the size of the grid squares */
+    display: flex;
+    justify-items: center; /* Centers content horizontally */
+    text-align: center;
+    min-height: 100vh;
+}
+
+#picgrid{
+    display: grid;
+    grid-template-columns: 200px, 200px, 200px, 200px;
+    justify-content: center;
+    gap: 50px;
+}
+
+#pic1, #pic2, #pic3, #pic4{
+    width: 200px;
+    height: 200px;
+}
