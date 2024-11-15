@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    display: flex; /* Use Flexbox to center everything inside */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full viewport height */
+    background: black;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+nav {
+    display: flex; /* Allows the ul to center */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul {
+    display: flex; /* Makes cards align horizontally */
+    flex-wrap: wrap; /* Allows cards to wrap to the next row if needed */
+    gap: 20px; /* Adds space between cards */
+    list-style: none; /* Removes default list styling */
+    justify-content: center; /* Centers cards in the container */
+    padding: 0;
+}
+
+nav li {
+    height: 630px;
+    width: 320px;
+    background: white;
+    border-radius: 20px;
+    border: 2px solid red;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 220px 315px 95px;
+}
+
+nav li img {
+    width: 320px;
+    height: 210px;
+}
+base {
+    background: blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
